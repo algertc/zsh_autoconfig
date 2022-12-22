@@ -1,1 +1,1 @@
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/algertc/zsh_autoconfig/main/script.sh)"
+```sh -c "$(curl -fsSL https://raw.githubusercontent.com/algertc/zsh_autoconfig/main/script.sh)"```
