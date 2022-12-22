@@ -9,8 +9,8 @@ export ZSH="$HOME/.oh-my-zsh"
 
 source $ZSH/oh-my-zsh.sh
 
-export FUCK=\"~/.local/bin
-eval $(thefuck --alias fuck)
+export FUCK="~/.local/bin"
+eval $(thefuck --alias)
 
 fpath+=(~/opt/zsh_things/pure)
 autoload -U promptinit; promptinit
