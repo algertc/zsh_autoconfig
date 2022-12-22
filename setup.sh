@@ -11,6 +11,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 #Give the resources a home
 cp wonton_motd ~/.wonton_motd
+cp .zshrc ~/.zshrc
 mkdir ~/opt &&
 mkdir ~/opt/zsh_things && cd ~/opt/zsh_things
 
@@ -27,7 +28,7 @@ echo "export FUCK="$HOME/.local/bin"" >> ~/.zshrc
 
 #syntax highlighting
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
-echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
+echo "source ~/opt/zsh_things/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 
 #pure prompt
 git clone https://github.com/sindresorhus/pure.git
