@@ -15,5 +15,5 @@ fpath+=(~/opt/zsh_things/pure)
 autoload -U promptinit; promptinit
 prompt pure
 clear
-lolcat .wonton_motd
+lolcat ~/.wonton_motd
 
