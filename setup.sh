@@ -11,7 +11,7 @@ sudo apt -y install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 #Give the resources a home
-cp wonton_motd ~/.wonton_motd
+cp wonton_motd ~/.wonton_motd 
 cp .zshrc ~/.zshrc
 mkdir ~/opt &&
 mkdir ~/opt/zsh_things && cd ~/opt/zsh_things
