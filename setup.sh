@@ -3,9 +3,13 @@
 #update pkgs
 sudo apt update
 
-#install zsh and give the resources a home
+#install zsh
 sudo apt -y install zsh
-cp .zshrc ~/.zshrc
+
+#install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+
+#Give the resources a home
 mkdir /opt/zsh_things && cd /opt/zsh_things
 
 #lolcat motd
@@ -22,4 +26,8 @@ pip3 install thefuck --user
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 
+#pure prompt
+git clone https://github.com/sindresorhus/pure.git
 
+#source zsh
+exec zsh
