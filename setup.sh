@@ -14,6 +14,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 cp wonton_motd ~/.wonton_motd 
 cp .zshrc ~/.zshrc
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 mkdir ~/opt &&
 mkdir ~/opt/zsh_things && cd ~/opt/zsh_things
 

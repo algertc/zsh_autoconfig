@@ -2,7 +2,7 @@ ZSH_THEME=""
 
 #$copydir copies the current directory to clipboard
 #dirhistory alt + left takes you to your previous directory (POWERFUL)
-plugins=(git zsh-autosuggestions ansible copydir dirhistory)
+plugins=(git zsh-autosuggestions)
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
