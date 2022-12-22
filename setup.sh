@@ -35,6 +35,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 echo "source ~/opt/zsh_things/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 
 #source zsh and set default
-chsh -s $(which zsh)
+sudo chsh -s $(which zsh) ubuntu
 source ~/.zshrc
 exec zsh
