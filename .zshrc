@@ -9,7 +9,8 @@ export ZSH="$HOME/.oh-my-zsh"
 
 source $ZSH/oh-my-zsh.sh
 
-export FUCK="~/.local/bin"
+sudo cp ~/.local/bin/fuck /usr/local/bin/
+sudo cp ~/.local/bin/thefuck /usr/local/bin
 eval $(thefuck --alias)
 
 fpath+=(~/opt/zsh_things/pure)
