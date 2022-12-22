@@ -1,8 +1,8 @@
 #Setup Shell
 
-#update pkgs and install make
+#update pkgs and install make + gcc
 sudo apt update
-sudo apt -y install make
+sudo apt -y install build-essential
 
 #install zsh
 sudo apt -y install zsh
