@@ -1,15 +1,13 @@
 
 ZSH_THEME=""
 
-plugins=(git zsh-autosuggestions)
-
+plugins=(git zsh-autosuggestions ansible)
 
 eval $(thefuck --alias)
 
-
+fpath+=(opt/zsh_things/pure)
 autoload -U promptinit; promptinit
 prompt pure
 clear
 lolcat .wonton_motd
-source /Users/charliealgert/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-export PATH="/opt/homebrew/opt/ansible@2.9/bin:$PATH"
+
