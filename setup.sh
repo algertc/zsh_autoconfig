@@ -25,7 +25,7 @@ cd ..
 #fuck command
 sudo apt -y install python3-dev python3-pip python3-setuptools
 pip3 install thefuck --user
-echo "export FUCK="$HOME/.local/bin"" >> ~/.zshrc
+echo "export FUCK=\"~/.local/bin\"" >> ~/.zshrc
 
 #pure prompt
 git clone https://github.com/sindresorhus/pure.git
