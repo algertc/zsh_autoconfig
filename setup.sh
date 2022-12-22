@@ -8,7 +8,7 @@ sudo apt -y install build-essential
 sudo apt -y install zsh
 
 #install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --unattended
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 #Give the resources a home
 cp wonton_motd ~/.wonton_motd 
