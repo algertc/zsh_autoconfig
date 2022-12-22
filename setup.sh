@@ -1,7 +1,8 @@
 #Setup Shell
 
-#update pkgs
+#update pkgs and install make
 sudo apt update
+sudo apt -y install make
 
 #install zsh
 sudo apt -y install zsh
