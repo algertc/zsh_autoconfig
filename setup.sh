@@ -35,4 +35,4 @@ echo "source ~/opt/zsh_things/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 git clone https://github.com/sindresorhus/pure.git
 
 #source zsh
-exec zsh
+source ~/.zshrc
