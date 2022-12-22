@@ -19,7 +19,7 @@ make && sudo make install
 cp wonton_motd ~/.wonton_motd
 
 #fuck command
-sudo apt install python3-dev python3-pip python3-setuptools
+sudo apt -y install python3-dev python3-pip python3-setuptools
 pip3 install thefuck --user
 
 #syntax highlighting
