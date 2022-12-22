@@ -11,7 +11,7 @@ source $ZSH/oh-my-zsh.sh
 
 eval $(thefuck --alias)
 
-fpath+=(opt/zsh_things/pure)
+fpath+=(~/opt/zsh_things/pure)
 autoload -U promptinit; promptinit
 prompt pure
 clear
